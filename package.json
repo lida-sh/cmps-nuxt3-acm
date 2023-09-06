@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.2.0",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "@tailwindcss/typography": "^0.5.8",
+    "autoprefixer": "^10.4.13",
+    "nuxt": "3.0.0",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^1.0.6",
+    "@pinia/nuxt": "^0.4.6",
+    "@vueuse/core": "^9.9.0",
+    "class-transformer": "^0.5.1",
+    "daisyui": "^2.46.0",
+    "echarts": "^5.4.2",
+    "gsap": "^3.11.4",
+    "pinia": "^2.0.28",
+    "qs-stringify": "^1.2.1",
+    "query-string": "^8.1.0",
+    "reflect-metadata": "^0.1.13",
+    "vee-validate": "^4.7.3",
+    "yup": "^0.32.11"
+  }
+}
